@@ -1,3 +1,5 @@
 .env
 myenv/
 __pycache__/
+chroma_db/
+chroma_dbs/
