@@ -7,3 +7,4 @@ chromadb==0.4.24
 pypdf>=3.17.0
 python-dotenv>=1.0.0
 requests>=2.31.0
+gunicorn
