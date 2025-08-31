@@ -1,27 +1,9 @@
 # 📄 PDF_RAG
 
-Welcome to the **PDF_RAG** project! This repository provides tools and utilities for working with PDF files, enabling efficient processing, analysis, and manipulation.
+Welcome to the **PDF_RAG** project! This repository demonstrates the use of Retrieval-Augmented Generation (RAG) to answer queries specific to any document. By combining information retrieval with generative AI, **PDF_RAG** enables precise and context-aware responses tailored to the content of your uploaded documents.
 
 > **What is RAG (Retrieval-Augmented Generation)?**  
 > RAG is a framework that combines information retrieval with generative AI models. Unlike a normal LLM (Large Language Model) that generates responses solely based on its pre-trained knowledge, RAG retrieves relevant context from an external knowledge base (e.g., vector database) and augments the input to the generative model. This improves the quality and relevance of generated responses, making it particularly useful for tasks like question answering, summarization, and document analysis.
-
-## ✨ Features
-
-### 1. 📜 PDF Parsing
-- Extract text and metadata from PDF files.
-- Supports multi-page PDF documents.
-
-### 2. 🔍 Content Analysis
-- Perform keyword searches within PDF content.
-- Summarize text from large PDF documents.
-
-### 3. 🔄 File Conversion
-- Convert PDFs to other formats (e.g., text, images).
-- Batch processing for multiple files.
-
-### 4. ✏️ Customization
-- Annotate and edit PDF files.
-- Merge or split PDF documents.
 
 ## 🛠️ Pipeline Process
 
