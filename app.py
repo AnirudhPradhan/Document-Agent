@@ -15,7 +15,7 @@ from vector_store_handler import setup_retriever, download_pdf_from_url
 from agent_handler import create_document_retrieval_tool, get_agent_response
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 
-st.set_page_config(page_title="Doc Agent", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="PDF Agent", page_icon="🤖", layout="wide")
 st.title("🤖 Chat with Your Document")
 st.markdown("This agent uses an uploaded PDF, PDF URL, or general LLM if none provided.")
 
