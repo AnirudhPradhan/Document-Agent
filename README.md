@@ -39,7 +39,7 @@ Welcome to the **PDF_RAG** project! This repository provides tools and utilities
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/PDF_RAG.git
+   git clone https://github.com/AnirudhPradhan/Document-Agent.git
    cd PDF_RAG
    ```
 
@@ -50,7 +50,7 @@ Welcome to the **PDF_RAG** project! This repository provides tools and utilities
 
 3. Run the application:
    ```bash
-   python main.py
+   streamlit run app.py
    ```
 
 4. Follow the instructions in the terminal to load and process your PDF files.
