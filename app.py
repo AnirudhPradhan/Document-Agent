@@ -27,7 +27,7 @@ if "GOOGLE_API_KEY" not in os.environ:
 
 # Sidebar for file upload/URL input
 uploaded_pdf = st.sidebar.file_uploader("Upload a PDF", type=["pdf"])
-pdf_url = st.sidebar.text_input("...or enter a PDF URL")
+pdf_url = st.sidebar.text_input("...or enter an URL")
 pdf_path = None
 
 # Handle PDF input
@@ -50,7 +50,6 @@ def load_llm_and_embeddings():
         llm = ChatGoogleGenerativeAI(
             model=config.LLM_MODEL_NAME, 
             temperature=0.2
-            # Removed deprecated convert_system_message_to_human parameter
         )
         embeddings = GoogleGenerativeAIEmbeddings(model=config.EMBEDDINGS_MODEL_NAME)
         return llm, embeddings
